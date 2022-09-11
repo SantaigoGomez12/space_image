@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="main1" id="main1">
+        <div class="main_content">
+            <h1>Select Your Date</h1>
+            <div class="inputs_content">
+                <input type="date" value="" id="getDate">
+            </div>
+            <button type="button" onclick="getDateFun()">SUBMIT</button>
+        </div>
+    </main>
+
+    <main class="main2" id="main2">
+        <div class="api_content">
+            <div class="buttons_api">
+                <button class="but1" id="info" onclick="returnInfo()">
+                    ?
+                </button>
+                <button class="but2" onclick="returnSave()">
+                    X
+                </button>
+            </div>
+            <img src="" alt="" id="img">
+            <p id="content" class="api_text"></p>
+        </div>
+    </main>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
